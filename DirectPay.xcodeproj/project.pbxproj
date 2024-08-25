@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B501A5F62C7B7CF40034E36C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B501A5F52C7B7CF40034E36C /* AppDelegate.swift */; };
+		B501A5F82C7B7CF40034E36C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B501A5F72C7B7CF40034E36C /* SceneDelegate.swift */; };
+		B501A5FA2C7B7CF40034E36C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B501A5F92C7B7CF40034E36C /* ViewController.swift */; };
+		B501A5FD2C7B7CF40034E36C /* Base in Resources */ = {isa = PBXBuildFile; fileRef = B501A5FC2C7B7CF40034E36C /* Base */; };
+		B501A5FF2C7B7CF50034E36C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B501A5FE2C7B7CF50034E36C /* Assets.xcassets */; };
+		B501A6022C7B7CF50034E36C /* Base in Resources */ = {isa = PBXBuildFile; fileRef = B501A6012C7B7CF50034E36C /* Base */; };
+		B501A60D2C7B7CF50034E36C /* DirectPayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B501A60C2C7B7CF50034E36C /* DirectPayTests.swift */; };
+		B501A6172C7B7CF50034E36C /* DirectPayUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B501A6162C7B7CF50034E36C /* DirectPayUITests.swift */; };
+		B501A6192C7B7CF50034E36C /* DirectPayUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B501A6182C7B7CF50034E36C /* DirectPayUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B501A6092C7B7CF50034E36C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B501A5EA2C7B7CF40034E36C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B501A5F12C7B7CF40034E36C;
+			remoteInfo = DirectPay;
+		};
+		B501A6132C7B7CF50034E36C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B501A5EA2C7B7CF40034E36C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B501A5F12C7B7CF40034E36C;
+			remoteInfo = DirectPay;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B501A5F22C7B7CF40034E36C /* DirectPay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DirectPay.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B501A5F52C7B7CF40034E36C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B501A5F72C7B7CF40034E36C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B501A5F92C7B7CF40034E36C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B501A5FC2C7B7CF40034E36C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B501A5FE2C7B7CF50034E36C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B501A6012C7B7CF50034E36C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B501A6032C7B7CF50034E36C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B501A6082C7B7CF50034E36C /* DirectPayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DirectPayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B501A60C2C7B7CF50034E36C /* DirectPayTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DirectPayTests.swift; sourceTree = "<group>"; };
+		B501A6122C7B7CF50034E36C /* DirectPayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DirectPayUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B501A6162C7B7CF50034E36C /* DirectPayUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DirectPayUITests.swift; sourceTree = "<group>"; };
+		B501A6182C7B7CF50034E36C /* DirectPayUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DirectPayUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B501A5EF2C7B7CF40034E36C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B501A6052C7B7CF50034E36C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B501A60F2C7B7CF50034E36C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B501A5E92C7B7CF40034E36C = {
+			isa = PBXGroup;
+			children = (
+				B501A5F42C7B7CF40034E36C /* DirectPay */,
+				B501A60B2C7B7CF50034E36C /* DirectPayTests */,
+				B501A6152C7B7CF50034E36C /* DirectPayUITests */,
+				B501A5F32C7B7CF40034E36C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B501A5F32C7B7CF40034E36C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B501A5F22C7B7CF40034E36C /* DirectPay.app */,
+				B501A6082C7B7CF50034E36C /* DirectPayTests.xctest */,
+				B501A6122C7B7CF50034E36C /* DirectPayUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B501A5F42C7B7CF40034E36C /* DirectPay */ = {
+			isa = PBXGroup;
+			children = (
+				B501A5F52C7B7CF40034E36C /* AppDelegate.swift */,
+				B501A5F72C7B7CF40034E36C /* SceneDelegate.swift */,
+				B501A5F92C7B7CF40034E36C /* ViewController.swift */,
+				B501A5FB2C7B7CF40034E36C /* Main.storyboard */,
+				B501A5FE2C7B7CF50034E36C /* Assets.xcassets */,
+				B501A6002C7B7CF50034E36C /* LaunchScreen.storyboard */,
+				B501A6032C7B7CF50034E36C /* Info.plist */,
+			);
+			path = DirectPay;
+			sourceTree = "<group>";
+		};
+		B501A60B2C7B7CF50034E36C /* DirectPayTests */ = {
+			isa = PBXGroup;
+			children = (
+				B501A60C2C7B7CF50034E36C /* DirectPayTests.swift */,
+			);
+			path = DirectPayTests;
+			sourceTree = "<group>";
+		};
+		B501A6152C7B7CF50034E36C /* DirectPayUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B501A6162C7B7CF50034E36C /* DirectPayUITests.swift */,
+				B501A6182C7B7CF50034E36C /* DirectPayUITestsLaunchTests.swift */,
+			);
+			path = DirectPayUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B501A5F12C7B7CF40034E36C /* DirectPay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B501A61C2C7B7CF50034E36C /* Build configuration list for PBXNativeTarget "DirectPay" */;
+			buildPhases = (
+				B501A5EE2C7B7CF40034E36C /* Sources */,
+				B501A5EF2C7B7CF40034E36C /* Frameworks */,
+				B501A5F02C7B7CF40034E36C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DirectPay;
+			productName = DirectPay;
+			productReference = B501A5F22C7B7CF40034E36C /* DirectPay.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B501A6072C7B7CF50034E36C /* DirectPayTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B501A61F2C7B7CF50034E36C /* Build configuration list for PBXNativeTarget "DirectPayTests" */;
+			buildPhases = (
+				B501A6042C7B7CF50034E36C /* Sources */,
+				B501A6052C7B7CF50034E36C /* Frameworks */,
+				B501A6062C7B7CF50034E36C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B501A60A2C7B7CF50034E36C /* PBXTargetDependency */,
+			);
+			name = DirectPayTests;
+			productName = DirectPayTests;
+			productReference = B501A6082C7B7CF50034E36C /* DirectPayTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B501A6112C7B7CF50034E36C /* DirectPayUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B501A6222C7B7CF50034E36C /* Build configuration list for PBXNativeTarget "DirectPayUITests" */;
+			buildPhases = (
+				B501A60E2C7B7CF50034E36C /* Sources */,
+				B501A60F2C7B7CF50034E36C /* Frameworks */,
+				B501A6102C7B7CF50034E36C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B501A6142C7B7CF50034E36C /* PBXTargetDependency */,
+			);
+			name = DirectPayUITests;
+			productName = DirectPayUITests;
+			productReference = B501A6122C7B7CF50034E36C /* DirectPayUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B501A5EA2C7B7CF40034E36C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					B501A5F12C7B7CF40034E36C = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					B501A6072C7B7CF50034E36C = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = B501A5F12C7B7CF40034E36C;
+					};
+					B501A6112C7B7CF50034E36C = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = B501A5F12C7B7CF40034E36C;
+					};
+				};
+			};
+			buildConfigurationList = B501A5ED2C7B7CF40034E36C /* Build configuration list for PBXProject "DirectPay" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B501A5E92C7B7CF40034E36C;
+			productRefGroup = B501A5F32C7B7CF40034E36C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B501A5F12C7B7CF40034E36C /* DirectPay */,
+				B501A6072C7B7CF50034E36C /* DirectPayTests */,
+				B501A6112C7B7CF50034E36C /* DirectPayUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B501A5F02C7B7CF40034E36C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B501A5FF2C7B7CF50034E36C /* Assets.xcassets in Resources */,
+				B501A6022C7B7CF50034E36C /* Base in Resources */,
+				B501A5FD2C7B7CF40034E36C /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B501A6062C7B7CF50034E36C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B501A6102C7B7CF50034E36C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B501A5EE2C7B7CF40034E36C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B501A5FA2C7B7CF40034E36C /* ViewController.swift in Sources */,
+				B501A5F62C7B7CF40034E36C /* AppDelegate.swift in Sources */,
+				B501A5F82C7B7CF40034E36C /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B501A6042C7B7CF50034E36C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B501A60D2C7B7CF50034E36C /* DirectPayTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B501A60E2C7B7CF50034E36C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B501A6192C7B7CF50034E36C /* DirectPayUITestsLaunchTests.swift in Sources */,
+				B501A6172C7B7CF50034E36C /* DirectPayUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B501A60A2C7B7CF50034E36C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B501A5F12C7B7CF40034E36C /* DirectPay */;
+			targetProxy = B501A6092C7B7CF50034E36C /* PBXContainerItemProxy */;
+		};
+		B501A6142C7B7CF50034E36C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B501A5F12C7B7CF40034E36C /* DirectPay */;
+			targetProxy = B501A6132C7B7CF50034E36C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B501A5FB2C7B7CF40034E36C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B501A5FC2C7B7CF40034E36C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B501A6002C7B7CF50034E36C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B501A6012C7B7CF50034E36C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B501A61A2C7B7CF50034E36C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B501A61B2C7B7CF50034E36C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B501A61D2C7B7CF50034E36C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DirectPay/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = siam.DirectPay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B501A61E2C7B7CF50034E36C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DirectPay/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = siam.DirectPay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B501A6202C7B7CF50034E36C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = siam.DirectPayTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DirectPay.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DirectPay";
+			};
+			name = Debug;
+		};
+		B501A6212C7B7CF50034E36C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = siam.DirectPayTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DirectPay.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DirectPay";
+			};
+			name = Release;
+		};
+		B501A6232C7B7CF50034E36C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = siam.DirectPayUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DirectPay;
+			};
+			name = Debug;
+		};
+		B501A6242C7B7CF50034E36C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = siam.DirectPayUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DirectPay;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B501A5ED2C7B7CF40034E36C /* Build configuration list for PBXProject "DirectPay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B501A61A2C7B7CF50034E36C /* Debug */,
+				B501A61B2C7B7CF50034E36C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B501A61C2C7B7CF50034E36C /* Build configuration list for PBXNativeTarget "DirectPay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B501A61D2C7B7CF50034E36C /* Debug */,
+				B501A61E2C7B7CF50034E36C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B501A61F2C7B7CF50034E36C /* Build configuration list for PBXNativeTarget "DirectPayTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B501A6202C7B7CF50034E36C /* Debug */,
+				B501A6212C7B7CF50034E36C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B501A6222C7B7CF50034E36C /* Build configuration list for PBXNativeTarget "DirectPayUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B501A6232C7B7CF50034E36C /* Debug */,
+				B501A6242C7B7CF50034E36C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B501A5EA2C7B7CF40034E36C /* Project object */;
+}
