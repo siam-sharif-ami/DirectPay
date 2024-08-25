@@ -16,6 +16,9 @@
 		B501A60D2C7B7CF50034E36C /* DirectPayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B501A60C2C7B7CF50034E36C /* DirectPayTests.swift */; };
 		B501A6172C7B7CF50034E36C /* DirectPayUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B501A6162C7B7CF50034E36C /* DirectPayUITests.swift */; };
 		B501A6192C7B7CF50034E36C /* DirectPayUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B501A6182C7B7CF50034E36C /* DirectPayUITestsLaunchTests.swift */; };
+		B501A6292C7B7D370034E36C /* TopCurveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B501A6282C7B7D370034E36C /* TopCurveView.swift */; };
+		B501A63B2C7B82D70034E36C /* DeviceVariants.swift in Sources */ = {isa = PBXBuildFile; fileRef = B501A63A2C7B82D70034E36C /* DeviceVariants.swift */; };
+		B501A63E2C7B83170034E36C /* Other+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B501A63D2C7B83170034E36C /* Other+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		B501A6122C7B7CF50034E36C /* DirectPayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DirectPayUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B501A6162C7B7CF50034E36C /* DirectPayUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DirectPayUITests.swift; sourceTree = "<group>"; };
 		B501A6182C7B7CF50034E36C /* DirectPayUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DirectPayUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B501A6282C7B7D370034E36C /* TopCurveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopCurveView.swift; sourceTree = "<group>"; };
+		B501A63A2C7B82D70034E36C /* DeviceVariants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceVariants.swift; sourceTree = "<group>"; };
+		B501A63D2C7B83170034E36C /* Other+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Other+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,9 +105,10 @@
 		B501A5F42C7B7CF40034E36C /* DirectPay */ = {
 			isa = PBXGroup;
 			children = (
+				B501A6262C7B7D200034E36C /* Utility */,
+				B501A6252C7B7D110034E36C /* View Controllers */,
 				B501A5F52C7B7CF40034E36C /* AppDelegate.swift */,
 				B501A5F72C7B7CF40034E36C /* SceneDelegate.swift */,
-				B501A5F92C7B7CF40034E36C /* ViewController.swift */,
 				B501A5FB2C7B7CF40034E36C /* Main.storyboard */,
 				B501A5FE2C7B7CF50034E36C /* Assets.xcassets */,
 				B501A6002C7B7CF50034E36C /* LaunchScreen.storyboard */,
@@ -125,6 +132,40 @@
 				B501A6182C7B7CF50034E36C /* DirectPayUITestsLaunchTests.swift */,
 			);
 			path = DirectPayUITests;
+			sourceTree = "<group>";
+		};
+		B501A6252C7B7D110034E36C /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				B501A5F92C7B7CF40034E36C /* ViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		B501A6262C7B7D200034E36C /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				B501A63C2C7B83080034E36C /* Other+Extensions */,
+				B501A6272C7B7D260034E36C /* Custom Views */,
+				B501A63A2C7B82D70034E36C /* DeviceVariants.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		B501A6272C7B7D260034E36C /* Custom Views */ = {
+			isa = PBXGroup;
+			children = (
+				B501A6282C7B7D370034E36C /* TopCurveView.swift */,
+			);
+			path = "Custom Views";
+			sourceTree = "<group>";
+		};
+		B501A63C2C7B83080034E36C /* Other+Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				B501A63D2C7B83170034E36C /* Other+Extensions.swift */,
+			);
+			path = "Other+Extensions";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,6 +299,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B501A63E2C7B83170034E36C /* Other+Extensions.swift in Sources */,
+				B501A6292C7B7D370034E36C /* TopCurveView.swift in Sources */,
+				B501A63B2C7B82D70034E36C /* DeviceVariants.swift in Sources */,
 				B501A5FA2C7B7CF40034E36C /* ViewController.swift in Sources */,
 				B501A5F62C7B7CF40034E36C /* AppDelegate.swift in Sources */,
 				B501A5F82C7B7CF40034E36C /* SceneDelegate.swift in Sources */,
@@ -449,6 +493,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -476,6 +521,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
